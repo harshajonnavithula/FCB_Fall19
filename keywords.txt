@@ -97,14 +97,14 @@ asparagus
 apples
 avacado
 alfalfa
-acorn squash  (NOPE: this is actually an ‘S’)
+acorn squash
 almond
 arugala
 artichoke
 applesauce
-asian noodles (NOPE, an ‘N’)
+asian noodles
 antelope
-ahi tuna (NOPE: this is actually a ‘T’)
+ahi tuna
 albacore tuna
 Apple juice
 Avocado roll
