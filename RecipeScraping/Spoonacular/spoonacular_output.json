@@ -1,0 +1,760 @@
+{
+    "results": [
+        {
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": false,
+            "dairyFree": false,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": true,
+            "sustainable": false,
+            "weightWatcherSmartPoints": 12,
+            "gaps": "no",
+            "lowFodmap": false,
+            "ketogenic": false,
+            "whole30": false,
+            "preparationMinutes": 20,
+            "cookingMinutes": 22,
+            "sourceUrl": "http://insidebrucrewlife.com/2014/04/loaded-chicken-alfredo-gnocchi-bake/",
+            "spoonacularSourceUrl": "https://spoonacular.com/loaded-chicken-alfredo-gnocchi-bake-490331",
+            "aggregateLikes": 77353,
+            "spoonacularScore": 51.0,
+            "healthScore": 4.0,
+            "creditsText": "Inside BruCrew Life",
+            "sourceName": "Inside BruCrew Life",
+            "pricePerServing": 169.57,
+            "id": 490331,
+            "title": "Loaded Chicken Alfredo Gnocchi Bake",
+            "readyInMinutes": 42,
+            "servings": 8,
+            "image": "https://spoonacular.com/recipeImages/490331-312x231.jpg",
+            "imageType": "jpg",
+            "cuisines": [
+                "mediterranean",
+                "european",
+                "italian"
+            ],
+            "dishTypes": [
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "diets": [],
+            "occasions": [],
+            "winePairing": {
+                "pairedWines": [
+                    "chianti",
+                    "trebbiano",
+                    "verdicchio"
+                ],
+                "pairingText": "Gnocchi works really well with Chianti, Trebbiano, and Verdicchio. Italians know food and they know wine. Trebbiano and Verdicchio are Italian white wines that pair well with fish and white meat, while Chianti is a great Italian red for heavier, bolder dishes. You could try Tiamo Chianti. Reviewers quite like it with a 4.3 out of 5 star rating and a price of about 10 dollars per bottle.",
+                "productMatches": [
+                    {
+                        "id": 441645,
+                        "title": "Tiamo Chianti",
+                        "description": "Intense ruby red with garnet tones. Intense, fruity with persistent aromas of spices and licorice. Full with good acidity and balanced tannins.Tiamo is bottled at Chianti DOCG, and certified as made with 100% organic grapes.",
+                        "price": "$9.95",
+                        "imageUrl": "https://spoonacular.com/productImages/441645-312x231.jpg",
+                        "averageRating": 0.86,
+                        "ratingCount": 9.0,
+                        "score": 0.8242857142857143,
+                        "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ftiamo-chianti-2009%2F107710"
+                    }
+                ]
+            },
+            "analyzedInstructions": [
+                {
+                    "name": "",
+                    "steps": [
+                        {
+                            "number": 1,
+                            "step": "Cook the gnocchi according to the package directions.",
+                            "ingredients": [
+                                {
+                                    "id": 98853,
+                                    "name": "gnocchi",
+                                    "image": "gnocchi-isolated.jpg"
+                                }
+                            ],
+                            "equipment": []
+                        },
+                        {
+                            "number": 2,
+                            "step": "Drain. Stir together the gnocchi, broccoli, chicken, bacon, and Alfredo sauce. Spoon into a casserole dish.Top with mozzarella cheese.",
+                            "ingredients": [
+                                {
+                                    "id": 1026,
+                                    "name": "mozzarella",
+                                    "image": "mozzarella.png"
+                                },
+                                {
+                                    "id": 93606,
+                                    "name": "alfredo sauce",
+                                    "image": "alfredo-sauce.png"
+                                },
+                                {
+                                    "id": 11090,
+                                    "name": "broccoli",
+                                    "image": "broccoli.jpg"
+                                },
+                                {
+                                    "id": 98853,
+                                    "name": "gnocchi",
+                                    "image": "gnocchi-isolated.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404635,
+                                    "name": "casserole dish",
+                                    "image": "casserole-dish.png"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "step": "Bake at 400 degrees for 20-22 minutes. Turn oven to broil for 2-3 minutes or until the cheese starts to brown. Make sure you keep an eye on it because it will brown quickly.",
+                            "ingredients": [],
+                            "equipment": [
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "image": "oven.jpg"
+                                }
+                            ],
+                            "length": {
+                                "number": 25,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 4,
+                            "step": "Serve immediately. Makes 6-8 servings.",
+                            "ingredients": [],
+                            "equipment": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": false,
+            "dairyFree": false,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": true,
+            "sustainable": false,
+            "weightWatcherSmartPoints": 12,
+            "gaps": "no",
+            "lowFodmap": false,
+            "ketogenic": false,
+            "whole30": false,
+            "preparationMinutes": 10,
+            "cookingMinutes": 15,
+            "sourceUrl": "http://DAMNDELICIOUS.NET/2014/03/29/spaghetti-carbonara/",
+            "spoonacularSourceUrl": "https://spoonacular.com/spaghetti-carbonara-535835",
+            "aggregateLikes": 242705,
+            "spoonacularScore": 71.0,
+            "healthScore": 8.0,
+            "pricePerServing": 110.05,
+            "id": 535835,
+            "title": "Spaghetti Carbonara",
+            "readyInMinutes": 25,
+            "servings": 4,
+            "image": "https://spoonacular.com/recipeImages/535835-312x231.jpg",
+            "imageType": "jpg",
+            "cuisines": [
+                "mediterranean",
+                "european",
+                "italian"
+            ],
+            "dishTypes": [
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "diets": [],
+            "occasions": [],
+            "winePairing": {},
+            "analyzedInstructions": [
+                {
+                    "name": "",
+                    "steps": [
+                        {
+                            "number": 1,
+                            "step": "In a large pot of boiling salted water, cook pasta according to package instructions; reserve 1/2 cup water and drain well. In a small bowl, whisk together eggs and Parmesan; set aside.",
+                            "ingredients": [
+                                {
+                                    "id": 1033,
+                                    "name": "parmesan",
+                                    "image": "parmesan.jpg"
+                                },
+                                {
+                                    "id": 20420,
+                                    "name": "pasta",
+                                    "image": "fusilli.jpg"
+                                },
+                                {
+                                    "id": 1123,
+                                    "name": "egg",
+                                    "image": "egg.png"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404661,
+                                    "name": "whisk",
+                                    "image": "whisk.png"
+                                },
+                                {
+                                    "id": 404783,
+                                    "name": "bowl",
+                                    "image": "bowl.jpg"
+                                },
+                                {
+                                    "id": 404752,
+                                    "name": "pot",
+                                    "image": "stock-pot.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "step": "Heat a large skillet over medium high heat.",
+                            "ingredients": [],
+                            "equipment": [
+                                {
+                                    "id": 404645,
+                                    "name": "frying pan",
+                                    "image": "pan.png"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "step": "Add bacon and cook until brown and crispy, about 6-8 minutes; reserve excess fat. Stir in garlic until fragrant, about 1 minute. Stir in pasta and egg mixture, and gently toss to combine; season with salt and pepper, to taste.",
+                            "ingredients": [
+                                {
+                                    "id": 1102047,
+                                    "name": "salt and pepper",
+                                    "image": "salt-and-pepper.jpg"
+                                },
+                                {
+                                    "id": 11215,
+                                    "name": "garlic",
+                                    "image": "garlic.png"
+                                },
+                                {
+                                    "id": 10123,
+                                    "name": "bacon",
+                                    "image": "raw-bacon.png"
+                                },
+                                {
+                                    "id": 20420,
+                                    "name": "pasta",
+                                    "image": "fusilli.jpg"
+                                },
+                                {
+                                    "id": 1123,
+                                    "name": "egg",
+                                    "image": "egg.png"
+                                }
+                            ],
+                            "equipment": [],
+                            "length": {
+                                "number": 9,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 4,
+                            "step": "Add reserved pasta water, one tablespoon at a time, until desired consistency is reached.",
+                            "ingredients": [],
+                            "equipment": []
+                        },
+                        {
+                            "number": 5,
+                            "step": "Serve immediately, garnished with parsley, if desired.",
+                            "ingredients": [
+                                {
+                                    "id": 11297,
+                                    "name": "parsley",
+                                    "image": "parsley.jpg"
+                                }
+                            ],
+                            "equipment": []
+                        }
+                    ]
+                }
+            ],
+            "sourceName": null,
+            "creditsText": null
+        },
+        {
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": false,
+            "dairyFree": false,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": true,
+            "sustainable": false,
+            "weightWatcherSmartPoints": 22,
+            "gaps": "no",
+            "lowFodmap": false,
+            "ketogenic": false,
+            "whole30": false,
+            "preparationMinutes": 10,
+            "cookingMinutes": 35,
+            "sourceUrl": "http://damndelicious.net/2014/01/20/one-pot-baked-ziti/",
+            "spoonacularSourceUrl": "https://spoonacular.com/one-pot-baked-ziti-535901",
+            "aggregateLikes": 99695,
+            "spoonacularScore": 94.0,
+            "healthScore": 22.0,
+            "creditsText": "Damn Delicious",
+            "sourceName": "Damn Delicious",
+            "pricePerServing": 191.47,
+            "id": 535901,
+            "title": "One Pot Baked Ziti",
+            "readyInMinutes": 45,
+            "servings": 6,
+            "image": "https://spoonacular.com/recipeImages/535901-312x231.jpg",
+            "imageType": "jpg",
+            "cuisines": [
+                "mediterranean",
+                "european",
+                "italian"
+            ],
+            "dishTypes": [
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "diets": [],
+            "occasions": [],
+            "winePairing": {},
+            "analyzedInstructions": [
+                {
+                    "name": "",
+                    "steps": [
+                        {
+                            "number": 1,
+                            "step": "Heat olive oil in a large skillet over medium high heat.",
+                            "ingredients": [
+                                {
+                                    "id": 4053,
+                                    "name": "olive oil",
+                                    "image": "olive-oil.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404645,
+                                    "name": "frying pan",
+                                    "image": "pan.png"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "step": "Add Italian sausage and cook until browned, about 3-5 minutes, making sure to crumble the sausage as it cooks. Stir in garlic and red pepper flakes, and cook, stirring frequently, until fragrant, about 1 minute; season with salt and pepper, to taste. Stir in tomatoes and bring to a simmer until slightly thickened, about 8-10 minutes. Stir in pasta and 3 cups water. Bring to a boil; cover, reduce heat and simmer until pasta is cooked through, about 13-16 minutes.",
+                            "ingredients": [
+                                {
+                                    "id": 1032009,
+                                    "name": "red pepper flakes",
+                                    "image": "red-pepper-flakes.jpg"
+                                },
+                                {
+                                    "id": 7036,
+                                    "name": "italian sausage",
+                                    "image": "raw-pork-sausage.png"
+                                },
+                                {
+                                    "id": 1102047,
+                                    "name": "salt and pepper",
+                                    "image": "salt-and-pepper.jpg"
+                                },
+                                {
+                                    "id": 11215,
+                                    "name": "garlic",
+                                    "image": "garlic.png"
+                                },
+                                {
+                                    "id": 20420,
+                                    "name": "pasta",
+                                    "image": "fusilli.jpg"
+                                }
+                            ],
+                            "equipment": [],
+                            "length": {
+                                "number": 32,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 3,
+                            "step": "Remove from heat; stir in Parmesan and heavy cream. Top with mozzarella and cover until cheese has melted, about 2 minutes.",
+                            "ingredients": [
+                                {
+                                    "id": 1053,
+                                    "name": "heavy cream",
+                                    "image": "fluid-cream.jpg"
+                                },
+                                {
+                                    "id": 1026,
+                                    "name": "mozzarella",
+                                    "image": "mozzarella.png"
+                                },
+                                {
+                                    "id": 1033,
+                                    "name": "parmesan",
+                                    "image": "parmesan.jpg"
+                                }
+                            ],
+                            "equipment": [],
+                            "length": {
+                                "number": 2,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 4,
+                            "step": "Serve immediately, garnished with basil, if desired.",
+                            "ingredients": [
+                                {
+                                    "id": 2044,
+                                    "name": "basil",
+                                    "image": "basil.jpg"
+                                }
+                            ],
+                            "equipment": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": false,
+            "dairyFree": false,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": true,
+            "sustainable": false,
+            "weightWatcherSmartPoints": 13,
+            "gaps": "no",
+            "lowFodmap": false,
+            "ketogenic": false,
+            "whole30": false,
+            "preparationMinutes": 10,
+            "cookingMinutes": 30,
+            "sourceUrl": "http://www.twopeasandtheirpod.com/italian-sausage-tortellini-soup/",
+            "spoonacularSourceUrl": "https://spoonacular.com/italian-sausage-tortellini-soup-548180",
+            "aggregateLikes": 82926,
+            "spoonacularScore": 97.0,
+            "healthScore": 28.0,
+            "creditsText": "Two Peas and Their Pod",
+            "sourceName": "Two Peas and Their Pod",
+            "pricePerServing": 264.31,
+            "id": 548180,
+            "title": "Italian Sausage Tortellini Soup",
+            "readyInMinutes": 40,
+            "servings": 6,
+            "image": "https://spoonacular.com/recipeImages/548180-312x231.jpg",
+            "imageType": "jpg",
+            "cuisines": [
+                "mediterranean",
+                "european",
+                "italian"
+            ],
+            "dishTypes": [
+                "soup"
+            ],
+            "diets": [],
+            "occasions": [
+                "fall",
+                "winter"
+            ],
+            "winePairing": {},
+            "analyzedInstructions": [
+                {
+                    "name": "",
+                    "steps": [
+                        {
+                            "number": 1,
+                            "step": "In a large skillet, brown the mini sausage balls until cooked through. This will take about 5-7 minutes.",
+                            "ingredients": [],
+                            "equipment": [
+                                {
+                                    "id": 404645,
+                                    "name": "frying pan",
+                                    "image": "pan.png"
+                                }
+                            ],
+                            "length": {
+                                "number": 7,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 2,
+                            "step": "Drain off the grease and place the sausage balls on a plate lined with paper towels.",
+                            "ingredients": [],
+                            "equipment": [
+                                {
+                                    "id": 405895,
+                                    "name": "paper towels",
+                                    "image": "paper-towels.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 3,
+                            "step": "In a large pot, heat the olive oil over medium high heat.",
+                            "ingredients": [
+                                {
+                                    "id": 4053,
+                                    "name": "olive oil",
+                                    "image": "olive-oil.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404752,
+                                    "name": "pot",
+                                    "image": "stock-pot.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 4,
+                            "step": "Add the onion and cook until tender, 3-4 minutes. Stir in the garlic and cook for 2 minutes. Stir in the red peppers, bay leaf, and red pepper flakes. Cook until peppers are soft, about 3 minutes.",
+                            "ingredients": [
+                                {
+                                    "id": 1032009,
+                                    "name": "red pepper flakes",
+                                    "image": "red-pepper-flakes.jpg"
+                                },
+                                {
+                                    "id": 11821,
+                                    "name": "red pepper",
+                                    "image": "red-pepper.jpg"
+                                },
+                                {
+                                    "id": 2004,
+                                    "name": "bay leaves",
+                                    "image": "bay-leaves.jpg"
+                                },
+                                {
+                                    "id": 11215,
+                                    "name": "garlic",
+                                    "image": "garlic.png"
+                                },
+                                {
+                                    "id": 11282,
+                                    "name": "onion",
+                                    "image": "brown-onion.png"
+                                }
+                            ],
+                            "equipment": [],
+                            "length": {
+                                "number": 9,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 5,
+                            "step": "Stir in the broth, tomatoes, and kale.",
+                            "ingredients": [
+                                {
+                                    "id": 11233,
+                                    "name": "kale",
+                                    "image": "kale.jpg"
+                                }
+                            ],
+                            "equipment": []
+                        },
+                        {
+                            "number": 6,
+                            "step": "Add the cheese tortellini and cook until tortellini is tender, 7-8 minutes. Stir in the fresh basil and season with salt and pepper, to taste. Stir in the mini sausage balls and heat until warm.",
+                            "ingredients": [
+                                {
+                                    "id": 10093727,
+                                    "name": "cheese tortellini",
+                                    "image": "tortellini-isolated.jpg"
+                                },
+                                {
+                                    "id": 1102047,
+                                    "name": "salt and pepper",
+                                    "image": "salt-and-pepper.jpg"
+                                },
+                                {
+                                    "id": 2044,
+                                    "name": "fresh basil",
+                                    "image": "fresh-basil.jpg"
+                                },
+                                {
+                                    "id": 93727,
+                                    "name": "tortellini",
+                                    "image": "tortellini-isolated.jpg"
+                                }
+                            ],
+                            "equipment": [],
+                            "length": {
+                                "number": 8,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 7,
+                            "step": "Remove the bay leaf and serve.Note-you can make this soup vegetarian by using vegetable broth and omitting the sausage. Josh always ladles up my bowl first, and then adds the sausage. This soup recipe is very adaptable!",
+                            "ingredients": [
+                                {
+                                    "id": 2004,
+                                    "name": "bay leaves",
+                                    "image": "bay-leaves.jpg"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404630,
+                                    "name": "ladle",
+                                    "image": "ladle.jpg"
+                                },
+                                {
+                                    "id": 404783,
+                                    "name": "bowl",
+                                    "image": "bowl.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "vegetarian": false,
+            "vegan": false,
+            "glutenFree": false,
+            "dairyFree": false,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": true,
+            "sustainable": false,
+            "weightWatcherSmartPoints": 9,
+            "gaps": "no",
+            "lowFodmap": false,
+            "ketogenic": false,
+            "whole30": false,
+            "preparationMinutes": 10,
+            "cookingMinutes": 15,
+            "sourceUrl": "http://www.budgetbytes.com/2013/05/italian-wonderpot/",
+            "spoonacularSourceUrl": "https://spoonacular.com/italian-wonderpot-one-pot-pasta-592353",
+            "aggregateLikes": 286243,
+            "spoonacularScore": 98.0,
+            "healthScore": 29.0,
+            "creditsText": "Budget Bytes",
+            "sourceName": "Budget Bytes",
+            "pricePerServing": 162.05,
+            "id": 592353,
+            "title": "Italian Wonderpot (One Pot Pasta)",
+            "readyInMinutes": 25,
+            "servings": 6,
+            "image": "https://spoonacular.com/recipeImages/592353-312x231.jpg",
+            "imageType": "jpg",
+            "cuisines": [
+                "mediterranean",
+                "european",
+                "italian"
+            ],
+            "dishTypes": [
+                "lunch",
+                "main course",
+                "main dish",
+                "dinner"
+            ],
+            "diets": [],
+            "occasions": [],
+            "winePairing": {},
+            "analyzedInstructions": [
+                {
+                    "name": "",
+                    "steps": [
+                        {
+                            "number": 1,
+                            "step": "Add four cups of vegetable broth to a large pot. Break the fettuccine in half and add it to the pot along with the canned tomatoes (with juices), olive oil, frozen spinach, onion, garlic, basil, oregano, red pepper, and some freshly cracked black pepper.Make sure the ingredients are submerged under the liquid, place a lid on top of the pot, and then turn the heat on to high. Allow the pot to come up to a full boil over high heat, then remove the lid and turn the heat down to medium.Allow the pot to continue to boil over medium heat, without a lid, for 10-15 minutes, or until the pasta is cooked and most of the liquid has been absorbed. Stir the pot every few minutes as it cooks to prevent the pasta from sticking to the bottom, but avoid over stirring which can cause the pasta to become sticky.Sprinkle with shaved Parmesan just before serving.",
+                            "ingredients": [
+                                {
+                                    "id": 10011693,
+                                    "name": "canned tomatoes",
+                                    "image": "tomatoes-canned.png"
+                                },
+                                {
+                                    "id": 6615,
+                                    "name": "vegetable broth",
+                                    "image": "chicken-broth.png"
+                                },
+                                {
+                                    "id": 10020409,
+                                    "name": "fettuccine",
+                                    "image": "egg-noodles.jpg"
+                                },
+                                {
+                                    "id": 4053,
+                                    "name": "olive oil",
+                                    "image": "olive-oil.jpg"
+                                },
+                                {
+                                    "id": 1033,
+                                    "name": "parmesan",
+                                    "image": "parmesan.jpg"
+                                },
+                                {
+                                    "id": 2027,
+                                    "name": "oregano",
+                                    "image": "oregano.jpg"
+                                },
+                                {
+                                    "id": 11215,
+                                    "name": "garlic",
+                                    "image": "garlic.png"
+                                },
+                                {
+                                    "id": 2044,
+                                    "name": "basil",
+                                    "image": "basil.jpg"
+                                },
+                                {
+                                    "id": 11282,
+                                    "name": "onion",
+                                    "image": "brown-onion.png"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404752,
+                                    "name": "pot",
+                                    "image": "stock-pot.jpg"
+                                }
+                            ],
+                            "length": {
+                                "number": 15,
+                                "unit": "minutes"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "offset": 0,
+    "number": 5,
+    "totalResults": 1695
+}
