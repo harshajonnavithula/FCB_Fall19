@@ -217,6 +217,7 @@ Spinach
 Spaghetti
 Tater tots
 Toast
+Vegetarian
 Venison
 Waffles
 Wine
