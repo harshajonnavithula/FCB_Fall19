@@ -1,5 +1,6 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
+import re
 ''' Author: Matt Krivansky
     Date: 10/07/2019
 
@@ -35,4 +36,30 @@ def main():
     with open('BBC_Gastronomy.txt', 'w') as file:
         file.write(article_food)
 
-main()
+def find_keywords(filename):
+    keywords = open('keywords.txt', 'r')
+    #output = open('BBC_Gastronomy_keywords_output.txt', 'w')
+    for keyword in keywords:
+        keyword = keyword.strip('\n')
+        count = 0
+        file = open(filename)
+        for line in file:
+            sentence = line.split()
+            for word in sentence:
+                word = replace_characters(word)
+                if str(keyword) == str(word):
+                    count += 1
+                '''counter = line.find(keyword)
+                if counter != -1 and counter != 0:
+                    count += 1'''
+        file.close()
+        print('{:20s}: {:5d}\n'.format(keyword, count)) #, file = output)
+            
+def replace_characters(text):
+    characters = ['.', ',', ':', ':', '\"', '!', '"', "'", "(", ")", '/', '[', ']']
+    for i in characters:
+        text = text.replace(i, '')
+    return text
+
+find_keywords('BBC_Gastronomy.txt')
+#main()
