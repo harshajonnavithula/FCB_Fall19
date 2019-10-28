@@ -1,6 +1,8 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
+import csv
+import requests
 ''' Author: Matt Krivansky
     Date: 10/07/2019
 
@@ -14,31 +16,50 @@ import re
 
     Reference: http://jonathansoma.com/lede/foundations-2017/classes/adv-scraping/scraping-bbc/
 '''
+data_list = [[]]
+with open('urls.txt', 'r') as urls_txt:
+    urls = urls_txt.readlines()
+    for i in range(len(urls)):
+        urls[i] = urls[i][:len(urls[i]) - 1]
 
-def main():
-    url_travel = "http://www.bbc.com/travel/story/20190818-whats-it-like-to-live-in-an-over-touristed-city"
-    page_travel = urlopen(url_travel)
-    soup_travel = BeautifulSoup(page_travel, 'html.parser')
-    content_travel = soup_travel.find('div', {'class': 'body-content'})
-    article_travel = ''
-    for i in content_travel.findAll('p'):
-        article_travel = article_travel + ' ' +  i.text
-    with open('BBC_Overtouristed_City.txt', 'w') as file:
-        file.write(article_travel)
-    
-    url_food = "http://www.bbc.com/travel/story/20191007-brazil-the-last-frontier-of-gastronomy"
-    page_food = urlopen(url_food)
-    soup_food = BeautifulSoup(page_food, 'html.parser')
-    content_food = soup_food.find('div', {'class': 'body-content'})
-    article_food = ''
-    for i in content_food.findAll('p'):
-        article_food = article_food + ' ' +  i.text
-    with open('BBC_Gastronomy.txt', 'w') as file:
-        file.write(article_food)
+url_food = ''
+def main():    
+    for i in range(len(urls)):
+        data_list = [[]]
+        url_food = urls[i]
+        page_food = urlopen(str(url_food))
+        soup_food = BeautifulSoup(page_food, 'html.parser')
+        content_food = soup_food.find('div', {'class': 'body-content'})
+        article_food = ''
+        for i in content_food.findAll('p'):
+            article_food = article_food + ' ' +  i.text
+        with open('article_text.txt', 'w') as file:
+            file.write(article_food)
+        print(url_food)
+        data_list.append([url_food, url_food[32:40]])
+        find_keywords('article_text.txt', url_food[32:])
 
-def find_keywords(filename):
+    for i in range(len(more_urls)):
+        data_list = [[]]
+        url_food = more_urls[i]
+        page_food = urlopen(str(url_food))
+        soup_food = BeautifulSoup(page_food, 'html.parser')
+        content_food = soup_food.find('div', {'class': 'body-content'})
+        article_food = ''
+        for i in content_food.findAll('p'):
+            article_food = article_food + ' ' +  i.text
+        with open('article_text.txt', 'w') as file:
+            file.write(article_food)
+        print(url_food)
+        data_list.append([url_food, url_food[32:40]])
+        find_keywords('article_text.txt', url_food[32:])
+
+def find_keywords(filename, webpage):
     keywords = open('keywords.txt', 'r')
-    #output = open('BBC_Gastronomy_keywords_output.txt', 'w')
+    #output = open('BBC_Gastronomy_keywords_output.csv', 'w')
+    data_list = [[]]
+    webpage = webpage + '.csv'
+    output = open(str(webpage), 'w')
     for keyword in keywords:
         keyword = keyword.strip('\n')
         count = 0
@@ -49,11 +70,11 @@ def find_keywords(filename):
                 word = replace_characters(word)
                 if str(keyword) == str(word):
                     count += 1
-                '''counter = line.find(keyword)
-                if counter != -1 and counter != 0:
-                    count += 1'''
         file.close()
-        print('{:20s}: {:5d}\n'.format(keyword, count)) #, file = output)
+        data_list.append([keyword, count])
+    writer = csv.writer(output)
+    writer.writerows(data_list)
+    output.close()
             
 def replace_characters(text):
     characters = ['.', ',', ':', ':', '\"', '!', '"', "'", "(", ")", '/', '[', ']']
@@ -61,5 +82,13 @@ def replace_characters(text):
         text = text.replace(i, '')
     return text
 
-find_keywords('BBC_Gastronomy.txt')
-#main()
+def count_articles():
+    url = ('https://newsapi.org/v2/top-headlines?'
+       'sources=bbc-news&'
+       'apiKey=c0e876f5cc0d4412b6cd37a9b445168a')
+    response = requests.get(url)
+    print(response.json())
+
+#find_keywords('BBC_Gastronomy.txt')
+#count_articles()
+main()
