@@ -11,19 +11,19 @@ api = sp.API('a3dc0c4c374149b29dfba84a54dec14c')
 #Output path setup
 parent = pathlib.Path.cwd() / 'RecipeScraping' / 'Spoonacular'
 outputpath = parent / 'spoonacular_output.json'
-csvpath = parent / 'spoondata_vegetarian.csv'
+csvpath = parent / 'spoondata_mediterranean.csv'
 
 #API Query Settings
 query = ''
 number = 10
 sort = 'popularity'
 offset = 10
-diet = 'vegetarian'
+cuisine = 'mediterranean'
 
 #Calling the API, sending results to JSON file and interpreting into dataframe
 response = api.search_recipes_complex(query, sort = sort,\
  sortDirection = 'desc', number = number, addRecipeInformation = True,\
- fillIngredients = True, diet = diet, offset = offset)
+ fillIngredients = True, cuisine = cuisine, offset = offset)
 data = response.json()
 outputfile = open(outputpath, 'w')
 json.dump(data,outputfile, indent=4)
