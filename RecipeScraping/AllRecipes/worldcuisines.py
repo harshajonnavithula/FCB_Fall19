@@ -101,13 +101,10 @@ def bbcfoodcuisines():
         linklist = list(set(linklist + templist))
 
     return linklist
-
-allrecipeslinks = allrecipesworldcuisines(11,51)
-
-#Scraping fields from linklist
 def allrecipes(linklist):
     df = pd.DataFrame(columns=['RecipeTitle','TotalTime','Yields','Image',
-     'Ingredients','Instructions','Ratings','ReviewCount','OldestReview','Host','Url'])
+    'Ingredients','Instructions','Ratings','ReviewCount','OldestReview','Host','Url'])
+
     for link in linklist:
         site = requests.get(link,headers)
         soup = BeautifulSoup(site.content,"html.parser")
@@ -132,7 +129,6 @@ def allrecipes(linklist):
                 yields = get_yields(yieldtext.get("content"))
             else:
                 yields = soup.findAll('div', {'class': 'recipe-meta-item-body'})[3].get_text().strip() + ' serving(s)'
-
         except:
             yields = ''
 
@@ -197,26 +193,32 @@ def allrecipes(linklist):
             oldestreview = pd.to_datetime('01/01/1900').date()
 
         scrapedata = {'RecipeTitle': title,
-                    'TotalTime': totaltime,
-                    'Yields':yields,
-                    'Image':image,
-                    'Ingredients':ingredients,
-                    'Instructions':instructions,
-                    'Ratings':rating,
-                    'ReviewCount':review_count,
-                    'OldestReview':oldestreview,
-                    'Host':'allrecipes.com',
-                    'Url':link
-                    }
+                        'TotalTime': totaltime,
+                        'Yields':yields,
+                        'Image':image,
+                        'Ingredients':ingredients,
+                        'Instructions':instructions,
+                        'Ratings':rating,
+                        'ReviewCount':review_count,
+                        'OldestReview':oldestreview,
+                        'Host':'allrecipes.com',
+                        'Url':link
+                        }
         df = df.append(scrapedata, ignore_index=True)
+
     df.drop_duplicates(subset='Url', inplace=True)
 
     return df
 
-df = allrecipes(allrecipeslinks)
-
-#Writing to csv
+'''
+#allrecipeslinks = allrecipesworldcuisines(i,i+10)
+olddata = pathlib.Path.cwd() / 'RecipeScraping' / 'AllRecipes' / 'sampleworldcuisines.csv'
+oldlinks = pd.read_csv(olddata)
+oldlinks = list(oldlinks['Url'])
+df = allrecipes(oldlinks)
+df
 datafile = pathlib.Path.cwd() / 'RecipeScraping' / 'AllRecipes' / 'newworldcuisines.csv'
 temp = pd.read_csv(datafile)
 df = temp.append(df,ignore_index=True).drop_duplicates(subset='Url')
 df.to_csv(datafile, index=False)
+'''
