@@ -17,7 +17,7 @@ import requests
     Reference: http://jonathansoma.com/lede/foundations-2017/classes/adv-scraping/scraping-bbc/
 '''
 data_list = [[]]
-with open('urls.txt', 'r') as urls_txt:
+with open('BBC_urls.txt', 'r') as urls_txt:
     urls = urls_txt.readlines()
     for i in range(len(urls)):
         urls[i] = urls[i][:len(urls[i]) - 1]
