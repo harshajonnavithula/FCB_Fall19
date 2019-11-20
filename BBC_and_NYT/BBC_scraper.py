@@ -27,17 +27,21 @@ def main():
     for i in range(len(urls)):
         data_list = [[]]
         url_food = urls[i]
-        page_food = urlopen(str(url_food))
+        try:
+            page_food = urlopen(str(url_food))
+        except:
+            continue
         soup_food = BeautifulSoup(page_food, 'html.parser')
         content_food = soup_food.find('div', {'class': 'body-content'})
         article_food = ''
         for i in content_food.findAll('p'):
             article_food = article_food + ' ' +  i.text
-        with open('article_text.txt', 'w') as file:
+        text_file_name = url_food[32:]
+        with open(text_file_name + '.txt', 'w') as file:
             file.write(article_food)
         print(url_food)
-        data_list.append([url_food, url_food[32:40]])
-        find_keywords('article_text.txt', url_food[32:])
+        #data_list.append([url_food, url_food[32:40]])
+        #find_keywords('article_text.txt', url_food[32:])
 
 def find_keywords(filename, webpage):
     keywords = open('keywords.txt', 'r')
