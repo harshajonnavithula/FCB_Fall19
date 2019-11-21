@@ -3,6 +3,11 @@ import pathlib
 import re
 from string import digits
 import collections
+import nltk
+#nltk.download('wordnet')
+from nltk.stem import WordNetLemmatizer
+
+Lem = WordNetLemmatizer()
 
 folder = pathlib.Path.cwd() / 'RecipeScraping' / 'AllRecipes'
 df = pd.read_csv(pathlib.Path(folder / 'newworldcuisines.csv'))
@@ -38,11 +43,20 @@ stopwords = ['teaspoons','teaspoon','tablespoon','tablespoons','cup','cups','con
         'unavailable','tub','steamed','wedges','but','stoned','dice','ready-prepared','bite-size','hulled','distilled','square',
         'whole','shell-on','-ml-fl','sharp','knife','approximately','xcmxin','available','supermarkets','asian','de-seeded',
         'bite-sized','piece','new','waxy','litre','drizzling','ready-rolled','also','known','ready-made','-g-oz','use','made',
-        'coating','loaf','intoinch','F','C','dredging','tops','prefer','preferably','coarsely','deep','frying','necessary',
+        'coating','loaf','intoinch','˚F','˚C','F','C','dredging','tops','prefer','preferably','coarsely','deep','frying','necessary',
         'stiffly','wash','florets','head','other','flanken','across','topping','whites','yolks','yolk','block','boneless',
         'breast','block','no salt added','half','unripe','picked','slicedinch','day-old','thick-cut','leg',
         'leg of','drumsticks','wings','slice','stale','pulp','edge','of','dash','massaged','segments','leftover',
-        'plain','buy','inside','spoon','get','-g','unsmoked','bone-in','thoroughly','moons']
+        'plain','buy','inside','spoon','get','-g','unsmoked','bone-in','thoroughly','moons','additional','each'
+        'flakes','JiffyÂ®','KaroÂ®','CrownÂ®','PamÂ®','PamR','MistoR','undiluted','desired','decorating','decoration','KahluaÂ®','liquid','bias','kikkoman',
+        'less sodium','preserves','low-fat','lowfat','over','pits','cheap','thickly','crosswise','your','choice','bar','snipped','stems','puree','dressed'
+        'pan-dressed','cutinch','young','favorite','amount','matchstick-size','not','ininch','spiralized','spiralizer','spirals'
+        'then','matchsticks','VÂ®','V-Â®','Better Than BouillonÂ®', 'Earth BalanceÂ®','Knorr','thinly-cut','thin-cut','thin-sliced','thick-sliced','threads'
+        'mild','mini','miniature','bangus','cores','pod','pods','skin','bone','skin-on','bones','scales','adjust','MomokawaÂ®','ingredients'
+        'four','portions','MarukanÂ®','partially','reduced-sodium','reduced-fat','reduced fat','scaled','-long','intoinch-long','buds','seedless','rounds','baby'
+        'tentacles','crisply','thirds','bag','drippings','sprig','stripped','white parts','ends','peels','long','strings','defrosted','jam','juice','processed','crusty','jaggery',
+        'loin chop','loin','chop','fat','rendered','roast','shoulder','excess','formed','sawed','serving size','stew','orinch'
+        'several','fillet','lengths','wide','salted','regular']
 
 
 df['Ingredients'] = df['Ingredients'].str.strip('][').str.split('\', ')
@@ -50,9 +64,9 @@ df['Ingredients'] = df['Ingredients'].str.strip('][').str.split('\', ')
 for i in df['Ingredients'].index:
     for j, val in enumerate(df['Ingredients'][i]):
         query = val.translate(remove_digits).replace('\'','').replace('/','').replace('(','').replace(')','').replace('– ','')
-        query = query.replace(',','').replace('.','').replace(' -','').replace(';','').replace('¾','').replace('½','').replace(':','').replace('¼','').replace('- ','').replace('\"','')
+        query = query.replace(',','').replace('.','').replace(' -','').replace(';','').replace('¾','').replace('½','').replace(':','').replace('¼','').replace('- ','').replace('\"','').replace('⅓','').replace('⅔','').replace('⅛','').replace('⅜','').replace('%','')
         querywords = query.split()
-        resultwords  = [word for word in querywords if word.lower() not in stopwords]
+        resultwords  = [Lem.lemmatize(word) for word in querywords if word.lower() not in stopwords]
         result = ' '.join(resultwords)
         df['Ingredients'][i][j] = result
 
@@ -66,8 +80,13 @@ classification = pd.read_csv(folder/ 'out.csv')
 df = df.merge(classification, how='left', on='id')
 
 df = df.loc[~(df.RecipeTitle == '504 Gateway Time-out')]
+df = df.loc[~((df.Ratings <= 0)&(df.TotalTime == -1))]
 df2 = df.Ingredients.apply(pd.Series).merge(df, right_index = True, left_index = True).drop(["Ingredients"], axis = 1\
-    ).melt(id_vars = ['RecipeTitle','TotalTime','Yields','Image','Instructions','Ratings','ReviewCount','OldestReview','Host','Url','cuisine'], value_name = "Ingredient").drop("variable", axis = 1).dropna(subset=['Ingredient']).sort_values(by=['RecipeTitle'])
+    ).melt(id_vars = ['id','RecipeTitle','TotalTime','Yields','Image','Instructions','Ratings','ReviewCount','OldestReview','Host','Url','cuisine'], value_name = "Ingredient").drop("variable", axis = 1).dropna(subset=['Ingredient']).sort_values(by=['id'])
+
+df2
 
 df.to_csv(folder / 'worldcuisines_final.csv')
-df2.to_csv(folder / 'alt_worldcuisines_final.csv')
+df2.to_csv(folder / 'alt_worldcuisines_final.csv',sep='\t',index=False)
+
+df2.loc[df2['Ingredient'].str.contains('virgin')]
