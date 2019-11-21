@@ -1,0 +1,481 @@
+	Word	Count
+0	recipes	1544
+6	tan	636
+18	pho	186
+10	eba	108
+34	pesto	73
+22	lasagna	48
+93	french toast	45
+63	kimchi	44
+82	quiche	43
+58	dumplings	42
+60	guacamole	35
+35	chorizo	29
+67	kir	28
+85	ceviche	26
+76	shortbread	21
+28	roti	21
+49	harissa	21
+11	meatloaf	20
+23	fish tacos	20
+33	aioli	18
+25	moussaka	18
+45	shrimp scampi	18
+19	coconut milk	18
+118	shakshuka	17
+44	gelato	15
+70	daiquiri	15
+189	irish coffee	14
+96	paella	14
+122	cannoli	14
+42	peanut sauce	14
+54	naan	13
+130	crepes	12
+48	om ali	12
+263	torsk	12
+27	rotisserie chicken	12
+73	lobster rolls	12
+158	tiramisu	11
+3	ratatouille	11
+137	gazpacho	10
+113	chimichurri	10
+318	spanish tortilla	10
+151	prime rib	10
+26	baklava	10
+31	paneer	10
+36	carnitas	10
+145	bouillabaisse	9
+88	soda bread	9
+97	paprika	9
+181	empanadas	9
+132	pad thai	9
+61	opera	9
+8	french onion soup	9
+200	bubble tea	8
+259	cottage pie	8
+103	potato soup	8
+110	upside down	8
+30	tzatziki	8
+89	macarons	8
+39	panna cotta	8
+280	spag bol	7
+2	calzone	7
+99	grilled cheese sandwich	7
+53	macaroni salad	7
+173	breakfast bake	7
+248	arancini	7
+59	pico de gallo	7
+71	red chicken	7
+124	yorkshire pudding	7
+163	chicken satay	6
+100	brioche	6
+79	jollof rice	6
+17	cheese sauce	6
+366	white wine sangria	6
+330	spanakopita	6
+129	greek salad	6
+40	churros	6
+64	juicy chicken	6
+335	french bread	6
+20	japchae	6
+1	miso soup	5
+125	crispy fried chicken	5
+347	coconut curry	5
+108	spring rolls	5
+320	beef stroganoff	5
+233	tahini dressing	5
+291	chicken tikka masala	5
+307	banoffee	5
+187	biscotti	5
+203	banh mi	5
+170	kabobs	5
+180	chicken marsala	5
+78	toasti	5
+56	tabbouleh	5
+15	pizza chicken	5
+41	peanut sauce i	5
+24	mexican street corn	5
+225	beef wellington	4
+66	corn tortillas	4
+253	ribollita	4
+254	chicken shawarma	4
+202	marinara sauce	4
+119	cauliflower cheese	4
+7	french onion soup i	4
+131	corn dogs	4
+77	duke	4
+274	beetroot hummus	4
+333	tapenade	4
+279	chicken katsu	4
+281	samosas	4
+51	german potato salad	4
+308	vegetarian moussaka	4
+114	tortillas i	4
+265	butternut squash risotto	4
+157	poutine	4
+221	rugelach	4
+80	feijoada	4
+209	affogato	4
+106	red beans	4
+105	cajun chicken	4
+223	barbacoa	4
+246	chicken burgers	4
+84	jerk chicken	4
+37	teriyaki sauce	4
+102	roast beef	4
+224	coconut chicken	4
+169	basil butter	3
+288	indonesian fried rice	3
+50	kale chips	3
+171	marinated flank steak	3
+165	vanilla cupcake	3
+294	pomegranate molasses	3
+297	ciabatta	3
+284	satay sauce	3
+164	baby back ribs	3
+52	calamari	3
+232	raita	3
+162	sunday gravy	3
+298	schnitzel	3
+177	quiche lorraine	3
+205	dutch apple pie	3
+179	mushroom risotto	3
+222	roasted brussels sprouts	3
+249	meat pie	3
+255	picadillo	3
+256	mint sauce	3
+21	avgolemono	3
+417	beer can chicken	3
+193	juicy thanksgiving turkey	3
+267	chickpea curry	3
+403	quinoa tabbouleh	3
+272	pork pie	3
+188	bolognese sauce	3
+215	kielbasa	3
+239	wonton soup	3
+217	croissants	3
+207	buffalo shrimp	3
+183	cajun chicken pasta	3
+185	enchilada sauce	3
+299	irish cream	3
+72	saffron rice	3
+364	agua fresca	3
+68	horchata	3
+127	peking duck	3
+69	bagna cauda	3
+385	hasselback potatoes	3
+341	chicken cacciatore	3
+121	tinga	3
+342	split pea soup	3
+5	tres leches cake	3
+109	amatriciana	3
+332	chimichurri sauce	3
+104	berry cobbler	3
+81	zoni	3
+101	creme brulee	3
+83	chocolate ganache	3
+362	chicken lettuce wraps	3
+87	cinnamon buns	3
+357	eggplant lasagna	3
+94	chicken parmesan	3
+133	leg of lamb	3
+416	panzanella salad	3
+310	vegetable curry	3
+152	fava beans	3
+449	curried cauliflower soup	3
+448	curried cauliflower	3
+379	chicken satay with peanut sauce	3
+146	rhubarb pie	3
+304	chicken korma	3
+309	poha potatoes	2
+234	sushi roll	2
+358	chicken parmigiana	2
+354	vietnamese pork	2
+247	barbecued spareribs	2
+303	irish stew	2
+245	chicken francese	2
+242	blinis	2
+32	aloo gobi	2
+356	teriyaki chicken	2
+387	garlic soup	2
+312	naan bread	2
+251	pesto pasta	2
+238	mango pie	2
+414	chicken taquitos	2
+235	bratwurst	2
+9	baked ziti i	2
+4	baba ghanoush	2
+397	arroz con pollo	2
+266	sweet potato brownies	2
+331	applesauce	2
+398	sous vide duck breast	2
+327	lentil stew	2
+323	chicken kiev	2
+273	hummus i	2
+321	zabaglione	2
+337	hummingbird	2
+12	baked spaghetti	2
+338	fluffy pancakes	2
+319	easy chicken curry	2
+348	chicken scarpariello	2
+289	welsh cakes	2
+339	irish soda bread	2
+260	slow cooker pulled pork	2
+407	beef bourguignon i	2
+314	bombay potatoes	2
+292	cornish pasty	2
+343	kale soup	2
+346	bang bang chicken	2
+313	egg fried rice	2
+300	bunny chow	2
+91	thai iced tea	2
+442	asian chicken salad	2
+197	reuben sandwich	2
+161	tartiflette	2
+166	chicken pad thai	2
+38	homemade teriyaki sauce	2
+454	sabayon	2
+199	eggplant caviar	2
+135	escabeche	2
+75	buche de noel	2
+196	shrimp pad thai	2
+208	dulce de leche	2
+461	vegan mapo tofu	2
+43	black bean soup	2
+172	moroccan chicken	2
+194	cheese fondue	2
+126	garlic aioli	2
+434	greek chicken	2
+440	almond tart	2
+206	tiramisu i	2
+160	red bean stew	2
+176	thai green curry	2
+95	ricotta gnocchi	2
+210	baked brie	2
+428	marshmallow brownies	2
+112	braciole	2
+62	char siu pork	2
+149	duck confit	2
+213	colcannon	2
+420	blackberry mojito	2
+107	creme fraiche	2
+184	creamy cajun chicken pasta	2
+424	berry trifle	2
+90	egg rolls	2
+423	caipirinha	2
+153	chocolate brownies	2
+422	beef goulash	2
+452	easy focaccia	1
+453	crispy wontons	1
+378	caramel shortbread	1
+455	cuban ropa vieja	1
+418	thai coconut chicken	1
+478	crab rangoon	1
+451	coconut chicken soup	1
+380	vegan tortilla soup	1
+381	duck cassoulet	1
+376	parmesan crusted chicken	1
+450	spicy peanut dipping sauce	1
+471	garlic prawns	1
+382	roasted pumpkin soup	1
+447	drunken noodles	1
+377	pisco sour	1
+459	english trifle	1
+375	wiener schnitzel	1
+369	champurrado	1
+468	pork fried rice	1
+466	vegetarian lettuce wraps	1
+363	watermelon agua fresca	1
+465	slow cooker pot roast	1
+365	chicken tostadas	1
+367	sesame chicken	1
+464	buffalo chicken chili	1
+463	portuguese fish stew	1
+462	chicken biryani	1
+368	honey sesame chicken	1
+469	vegan crepes	1
+456	italian biscotti	1
+370	corned beef and cabbage	1
+460	traditional english trifle	1
+477	sazon	1
+371	stuffed zucchini	1
+470	mushroom pie	1
+372	mississippi pot roast	1
+458	moo goo gai pan	1
+457	orange pork	1
+373	garlic chicken stir fry	1
+374	fresh guacamole	1
+446	pad kee mao	1
+388	easy chicken enchiladas	1
+383	ginger champagne	1
+384	kung pao cauliflower	1
+402	potato and pea samosas	1
+435	mu shu pork	1
+433	bibimbap	1
+404	coconut sauce	1
+432	easy chicken posole	1
+405	kimchi pancakes	1
+406	korean kimchi	1
+431	lemon syllabub	1
+408	tuna pasta salad	1
+430	tortilla espanola	1
+429	sweet and sour pork i	1
+409	gazpacho i	1
+410	tonkatsu	1
+475	crunchies	1
+427	chocolate banana brownies	1
+411	asian chicken noodle soup	1
+412	marinara dipping sauce	1
+413	mango guacamole	1
+426	honey mustard pork chops	1
+425	sesame beef	1
+415	pastry cream	1
+467	cheesecake brownies	1
+421	shrimp and asparagus	1
+401	pesto pizza	1
+400	chicken pesto pizza	1
+474	brazilian lemonade	1
+391	dijon chicken	1
+445	smoked salmon sushi roll	1
+444	mango sorbet	1
+472	sweet potato hummus	1
+386	linzer cookies	1
+443	red salad	1
+419	beef teriyaki	1
+441	vegetarian ramen	1
+389	garlic noodles	1
+390	pesto chicken	1
+439	apple pork chops	1
+392	roasted cauliflower steaks	1
+436	cucumber raita	1
+393	chai spice	1
+438	pineapple pork	1
+394	grilled flat iron steak	1
+395	korean marinade	1
+360	cioppino	1
+476	fairy bread	1
+473	frangipane	1
+396	plum sauce	1
+437	asian noodles	1
+399	egg foo young	1
+361	stracciatella i	1
+240	vegetarian borscht	1
+359	peanut butter cups	1
+186	salsa chicken	1
+148	bruschetta i	1
+150	mustard green soup	1
+154	roasted tomato sauce	1
+155	sukiyaki	1
+156	lemon cheese	1
+159	brigadeiro	1
+167	jamaican jerk chicken	1
+168	italian lasagna	1
+174	bbq chicken pizza	1
+175	thai green curry chicken	1
+178	chicken fajitas	1
+182	southern fried chicken	1
+190	crispy chicken nuggets	1
+144	honey syrup	1
+191	cauliflower fritters	1
+192	greek baklava	1
+195	greek orzo salad	1
+198	artichoke spinach lasagna	1
+201	chili chicken	1
+204	barbecue ribs	1
+211	irish brown bread	1
+212	irish potato candy	1
+214	green beer	1
+216	minestrone soup	1
+218	focaccia bread	1
+219	manicotti	1
+147	thai fried chicken	1
+143	japanese cheesecake	1
+226	pinakbet	1
+98	fideo	1
+13	pigs in a blanket	1
+14	portuguese egg tarts	1
+16	japanese milk bread	1
+29	nasi lemak	1
+46	dukkah	1
+47	dukka	1
+55	egusi soup	1
+57	tofu salad	1
+65	best guacamole	1
+74	zeppole	1
+86	rye bread	1
+92	pan dulce	1
+111	coconut ice	1
+142	amaretti	1
+115	caramel apple crumble	1
+116	brandade	1
+117	matar paneer	1
+120	blackened tuna	1
+123	gyoza	1
+128	alla checca	1
+134	turkish kebabs	1
+136	scotch eggs	1
+138	seafood paella	1
+139	thai beef salad	1
+140	thai beef	1
+141	chin chin	1
+220	chicken chimichangas	1
+227	embutido	1
+355	baked eggplant parmesan	1
+325	delicious salmon	1
+295	croque monsieur	1
+296	muhammara	1
+301	african curry	1
+302	chickpeas and chorizo	1
+305	easy tacos	1
+306	easy pancakes	1
+311	chicken tagine	1
+315	sichuan fried chicken	1
+316	curry sauce	1
+317	paella i	1
+322	chicken noodle salad	1
+324	biriyani	1
+326	clotted cream	1
+290	bara brith	1
+328	grilled peppers	1
+329	pork and clams	1
+334	pan seared salmon i	1
+336	chicken paprika	1
+340	crab fried rice	1
+344	chicken pho	1
+345	glazed ham	1
+349	goro	1
+350	pumpkin french toast	1
+351	kung pao shrimp	1
+352	shrimp lo mein	1
+353	easy shrimp lo mein	1
+293	sausage pasta	1
+287	lamb tagine	1
+228	lumpia	1
+261	chocolate and chilli mousse pie	1
+229	currywurst	1
+230	mandelbrot	1
+231	sheet pan ratatouille	1
+236	pupusas	1
+237	corn and rice	1
+241	treacle tart	1
+243	burek	1
+244	moroccan tagine	1
+250	sacher torte	1
+252	famous meatballs	1
+257	pear crumble	1
+258	apple and pear crumble	1
+262	smoky macaroni cheese	1
+286	quick chicken madras	1
+264	turkey taco bowls	1
+268	dirty corn	1
+269	walnut and honey baklava	1
+270	baklava i	1
+271	how to cook halloumi	1
+275	salted caramel brownies	1
+276	fattoush	1
+277	lighter fish pie	1
+278	fried rice i	1
+282	gnocchi bake	1
+283	lamb shawarma	1
+285	eccles cakes	1
+479	pasta puttanesca	1
