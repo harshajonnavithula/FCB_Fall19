@@ -1,0 +1,26 @@
+Futurists envision a kitchen in which appliances talk to each other, the refrigerator knows to order milk when you run out, a virtual assistant tells the oven exactly how to cook a piece of fish and recipe ideas pop up on your watch depending on your specific nutritional needs that day and what you have on hand to cook. And in this kitchen of the future, just speaking into one device will do it all.
+
+Like self-driving cars, kitchen automation is in its awkward adolescent phase. Bluetooth technology is prevalent in a plenty of appliances. Ovens have visual recognition capabilities, and you can track how your herbs are growing on your phone. 
+
+But much of the technology out there currently creates solutions for which there are no problems.
+
+“Is there really a consumer demand for this product?” asked Evan Dash, the owner of the appliance development company StoreBound, as he advised hopeful engineers and designers at the the Smart Kitchen Summit held Oct. 10 and 11 in Seattle. “Be honest with yourself.” 
+
+Here are some hits and misses on display there.
+
+The oven, already widely available at cookware stores and online, was like the popular kid at school at the conference. It has a camera that recognizes food, asking, for example, if you are cooking sausage or asparagus. Then it cooks it perfectly based on its database of recipes, your preferences and a thermometer. You can even start your steak while on your way home from work and watch it cook via an app.
+
+The e-Cooker uses pulsed electronic fields, which are short high-voltage bursts, to cook food with the low heat and precision of a sous-vide machine and the speed of a microwave. It has been widely used in medical treatment, and is trying to make the leap to the kitchen.
+
+Meet the Keurig of kitchen gardens. Insert a seed pod, add water and the machine will monitor each little plant that grows, giving it the right amount of light and water. Plants are supposed to grow faster than in your garden, and you can track it all on an app.
+
+One of the best-looking products on display, the Stagg EKG+ from Fellow allows coffee obsessives to remotely heat water to an exact temperature for pour-overs. Bluetooth technology and an app let  you track recipes, and remember that for your last drink, you gave that 20 grams of Ethiopian Limu two minutes at 201 degrees, and it was awesome. 
+
+The HOPii is the latest advancement in personal beer brewing. The device uses various combinations of wort, hops, yeast and flavorings pulled from the flavor profiles of actual breweries. Pop them in the machine and, seven days later, pull fresh craft beer from its tap.
+
+Some ideas were clearly in the prototype phase; GammaChef was one. Bar-coded plastic containers filled with precut food are stored in this refrigerated machine. At a set time, GammaChef will heat a pan and add ingredients in the proper order based on a database of recipes. A robotic arm stirs the meal, mixing in spices.
+
+The scramble is on to figure out how to manage food inventory in the refrigerator, but PantryChic has the dry goods covered. An app guides you through a PantryChic recipe, advising which programmable container to put over the smart scale. Then it measures out the exact amount of flour or sugar. The app tracks how much of any given dry ingredient is left, in case you’re at the store and have forgotten if you have enough rice for dinner.
+
+Several cooks at the show who had tried the Hestan Cue marveled at technology built into both the pan and its burner. Videos featuring a professional chef guide cooks through a collection of 150 sophisticated recipes that can be adjusted in real time based on information taken from sensors inside the equipment. The app tells the cook when the pan is at the perfect temperature to sear salmon, for example, then adjusts the temperature when the fish starts to cook.
+

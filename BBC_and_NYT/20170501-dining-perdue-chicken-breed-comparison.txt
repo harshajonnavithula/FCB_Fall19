@@ -1,0 +1,24 @@
+Perdue Farms, one of the country’s largest chicken producers, has been raising what are known as slow-growth chickens side by side with the breeds that have made the company so successful. This is how two of the breeds in the experiment compare.
+
+BREED Cobb 500
+
+BODY Short legs, top-heavy
+
+FEATHERS Often bare-chested from frequent nesting
+
+MEAT Bigger breast and wings
+
+MATURITY Ready for slaughter at about 48 days
+
+BODY Longer legs, upright posture
+
+BREED Redbro
+
+BODY Longer legs, upright posture
+
+FEATHERS Chest is covered
+
+MEAT Bigger thighs
+
+MATURITY Ready for slaughter at about 60 days
+
