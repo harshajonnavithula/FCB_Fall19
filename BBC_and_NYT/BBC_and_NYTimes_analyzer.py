@@ -100,9 +100,9 @@ def sort_data(data, output):
 
 def freq_counter():
     make_files_list('.txt')
-    print(len(list_of_files))
     words = []
     words_count = []
+    make_stop_words_list()
     for i in range(len(list_of_files)):
         print(list_of_files[i])
         with open(list_of_files[i]) as text:
@@ -113,7 +113,7 @@ def freq_counter():
                     count += 1
                     word = replace_characters(word)
                     word = word.lower()
-                    if word not in words:
+                    if word not in words and word not in stop_words_list:
                         words.append(word)
                         words_count.append([word, 1])
                     else:
@@ -239,4 +239,7 @@ def make_wordcloud(file):
 #identify_keywords()
 #tfidf()
 #make_wordcloud('keywords_freq_count.csv')
-#make_wordcloud('sorted_keyword_totals.csv')
+make_wordcloud('sorted_keyword_totals.csv')
+#make_files_list('.txt')
+#print(len(list_of_files))
+#freq_counter()

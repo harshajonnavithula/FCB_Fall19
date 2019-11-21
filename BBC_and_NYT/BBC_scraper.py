@@ -13,8 +13,6 @@ import requests
 
     Parse the text file counting keywords for both Travel and Food. Create .csv file with counters for each
     keyword in keywords.txt.
-
-    Reference: http://jonathansoma.com/lede/foundations-2017/classes/adv-scraping/scraping-bbc/
 '''
 data_list = [[]]
 with open('BBC_urls.txt', 'r') as urls_txt:

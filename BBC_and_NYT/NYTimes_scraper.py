@@ -12,8 +12,6 @@ import os
     First we will scrape NYTimes Travel, then we will scrape NYTimes Food.
     
     First search will be by 'food'.
-
-    Reference: https://dlab.berkeley.edu/blog/scraping-new-york-times-articles-python-tutorial
 '''
 ''' Uses article search API to search articles that are in the Food news desk, since Jan 1 2016, from The New York Times,
     searches for the keyword italian. Loops through 0-50 to get 500 articles, ie. offset = 0 yields top 10 articles, 
@@ -97,4 +95,4 @@ def main():
         print(list_of_text_file_names[i])
         find_keywords(list_of_text_file_names[i], list_of_text_file_names[i][:len(list_of_text_file_names[i]) - 4])
 
-main()
+#main()
